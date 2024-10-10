@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px #490080;
+    padding: 20px;
+    font-size: 26px;
+    color: #7a45f6;
+}
+
+.chamada {
+background: #61020c;
+padding-bottom: 80px;
+padding-top: 80;
+display: flex;
+justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1 {
+font-size: 46px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.categoria-raps {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-raps img {
+    opacity: 0.5;
+    height: 220px;
+}
+
+.categoria-raps img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(16, 10, 181);
+}
+
+.categoria h2 {
+    color: #749bef;
+}
